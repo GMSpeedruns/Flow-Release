@@ -1,0 +1,2 @@
+{"Map":"bhop_lost_world","ID":100,"Data":"custom"}
+{"Map":"bhop_lost_world","ID":9,"Data":"-234,-2945,-64"}

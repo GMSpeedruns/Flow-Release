@@ -1,0 +1,1 @@
+{"Map":"bhop_frost_bite_v1a","Points":20,"StartA":"[1039 163 128]","StartB":"[1218 605 258]","EndA":"[-1234 1309 477]","EndB":"[-832 1721 627]","Plays":0}

@@ -1,0 +1,1 @@
+{"Map":"bhop_monster_beta","EndA":"[2297 6069 304]","Plays":2,"EndB":"[2613 6767 496]","StartA":"[-3720 -3720 64]","Points":50,"StartB":"[-3528 -3688 256]"}

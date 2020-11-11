@@ -1,0 +1,230 @@
+As some of you might already have heard there has been a change of plan for the Bunny Hop server. I have been made Server Manager for the GFL Bunny Hop server on Garry's Mod and I have put on a CS:S like Gamemode that is rich of features and will make a great game to play for everyone.
+
+Click here to connect to the server.
+
+I will explain the full gamemode in-depth below.
+
+
+Bunny Hop - Version 5.01
+
+Index
+
+    Introduction
+    Change Log
+    - Update 5.0
+    General Information
+    - Gamemode Explantion
+    - Tutorials
+    - Game Functionality Explanation (F.A.Q)
+    - Rank List
+    - Map List
+    Resources
+
+
+
+1. Introduction
+I have changed the layout for this thread since there have been a numerous amount of updates all spread over a variety of threads, and I figured it would be useful if everything was compiled in one big and central thread so that information is easily accessible.
+Fields covered in this thread will be a complete list of features, changes and bug fixes applied to the server. General bhop information will also be posted here.
+If you have anything to suggest towards the bhop server or make any recommendations, please also post them here in this thread.
+
+2. Change Log
+
+Update 5.02
+
+Features
+
+    Allowed for pointshop trails to be hidden
+    Added a !fixwater / !water command to fix water reflection for certain maps
+
+    
+Changes
+
+    You can no longer use weapons in Noclip mode
+    Bot recording has been made more efficient
+    WR Window has been edited
+
+    
+Fixes
+
+    You can no longer accidently close the voting window
+    Trails now properly hide
+
+      
+
+Update 5.01
+This update focussed on fixing present bugs and changing current systems.
+
+Added Features
+
+    There is now autocompletion on commands
+
+Changes
+
+    The chat box has been changed to the default one to avoid bugs with the timer
+
+Bug Fixes
+
+    Fixed a bug where you could open up two windows at a time
+    Fixed a bug on bhop_catalyst with spawns
+    Fixed a bug with freestyle zones
+    Fixed a bug with chat tags
+
+Other Additions or Changes
+
+    + bhop_cw
+
+Update 5.0
+This was the initial upload of my gamemode that I had already been working on for a month. All details are described below.
+
+Features
+
+    100 Tick Bunny Hopping
+    Highly accurate timer
+    Nearly lag free
+    Ranks
+    Modes (Auto, Sideways, W-Only, Legit, Practice)
+    CS:S-Like player movement
+    Custom RTV System
+    Custom and clear HUD
+    Player hiding
+    Advanced spectating
+    Custom scoreboard
+    Heaps of commands
+    153 playable maps
+    Custom SWEPS (3-burst glock for boosters)
+    Bots (Recording runs)
+    Long Jump statistics
+    And much more
+
+3. General Information
+Gamemode Explanation
+The point of the Bunny Hop gamemode is to test your manouvring skills and to complete maps with a varying difficulty. On GFL we provide you with a great environment to use these skills in. We offer you to display your skill in several Bunny Hop modes:
+
+    Auto Hop: In this mode you will mainly be able to show your skill in strafing and speed; complete the maps with just your mouse and space bar. This is the only mode that will give you rank points.
+    Scroll: In this mode you have to use your mouse wheel to complete maps, and timing will be a big part of your run. Strafing still plays a role.
+    Sideways: This mode is all about showing your skill in being able to sideways-bhop. Auto Hop is enabled for this mode as scrolling mostly defeats the purpose.
+    W-Only: In this mode you have to complete the map with just your W-key and the space bar. This is generally considered the most challenging mode.
+    Bonus: This mode is only enable in some maps that have a bonus level. It is similar to the Auto Hop gamemode but does not give rank points. The levels are generally very short but can be challenging.
+    Practice: In this mode you can practice the map we are playing. You have access to a set of new commands that will allow you to place yourself anywhere throughout the map and try the parts or levels you struggle with.
+
+Each of these modes are provided with a World Record list, except of course the Practice mode.
+
+Tutorials
+Below is a list of tutorials that will indefinitely help you along the way in the Bunny Hop gamemode.
+
+    Bunny Hop Tutorial: Basic Bunny Hop (By Own3r)
+    Bunny Hop Tutorial: Advanced Bunny Hop (By Own3r)
+    Long Jump Tutorial: Long Jumps (XC) (By Own3r)
+
+
+
+Game Functionality Explanation
+The rank system
+Every map gives a certain amount of points for beating it. This can be done in any mode (except Practice and Bonus of course). To find out how many points a map gives, type !points.
+
+All points you get will add up to a total. That total determines your rank.
+
+If you look near the bottom of this thread or type !ranks in-game, you will see a list of ranks, and it will show the points you have.
+
+Practice Mode
+This mode can be used to practice a map. Type !practice to change to practice mode. Once you're in practice mode timers will not influence you. You can type !pnoclip or !roam to go into noclip mode and explore the map and go to parts you struggle with. You can then type the command again to toggle it back off.
+
+Bots
+Bots are for any mode. You have to improve the bot's previous time to get a bot.
+You have to use the !bot record command to record yourself.
+
+F.A.Q
+Q: Will we ever have Benchmark?
+A: Possibly.
+
+Command Explanation
+
+    F1: Toggle third person mode
+    F2: Toggle spectator mode
+    F3: Open the point shop
+
+    !wr or !records [Option: normal/sideways/w-only/auto hop]: Open the WR window, defaulting to normal
+    !mode or !style: Show a mode selection window
+    !nominate: Show the nominate window
+    !rank: Shows all ranks (Your own rank is in italics)
+
+    !normal or !n: Change to Normal bhop mode
+    !sideways or !sw or !s: Change to Sideways bhop mode
+    !wonly or !w: Changes to W-Only bhop mode
+    !auto or !a: Changes to Auto Hop bhop mode
+    !practice or !p: Changes to Practice bhop mode
+    !bonus or !b: Changes to the Bonus bhop mode
+
+    !show: Show the player models
+    !hide: Hide the player models
+    !chat or !togglechat: Toggles visibility of the chat
+
+    !r or !restart: Restart the map - Spawning at the start
+    !rtv or !vote: Rock the vote!
+    !revoke or !rtv revoke: Revokes your RTV
+    !spec or !spectate: Toggles spectator (Similar to F2)
+    !spec [Player]: Directly spectates a player
+    !time or !timeleft: Show how much the map has left
+    !clear or !remove: Strip your own player of all possessed weapons
+    !usp or !glock or !knife: Gives your player the designated weapon
+    !points [Map - eg: bhop_eazy]: Shows how many points the map is worth
+    !nominate [Map - eg: bhop_depot]: Nominates the given map
+
+    !bot - If there is a WR bot on the map, it will show when it was ran, by who and what the record was
+    !bot who - Will show who is currently being recorded
+    !bot record - Will attempt to record yourself (There is currently a 4 person limit)
+    !bot stop - If you're being recorded and you want to pass on the status to a different player, type this to cancel the recording
+
+Console Commands
+
+    cl_showhud 0/1: Show or hide the HUD
+    cl_showspec 0/1: Show or hide the spectator list
+    cl_showothers 0/1: Show or hide the players
+
+Rank List
+
+    Unranked
+    Slave
+    Grunt
+    Squire
+    Snail
+    Freshman
+    Amateur
+    Crawler
+    Private
+    Peasant
+    Learning
+    Advanced
+    Experienced
+    Mortal
+    Warden
+    Professional
+    Centurion
+    Admired
+    Executioner
+    Boss
+    Legendary
+    The Honored
+    Champion
+    Zombie
+    Genius
+    Brawler
+    Tsar
+    Bishop
+    Pharaoh
+    Demon
+    Insane
+    Immortal
+    Titan
+    Wizard
+    Demi God
+    God
+
+
+
+Map List
+This will be added soon. As of now, please go in game and type !nominate to view the full list of maps and the points they will give you.
+
+4. Resources
+
+- None -

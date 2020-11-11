@@ -1,0 +1,10 @@
+WebRepository.zip file (48.4 MB):
+- [MIRROR - Mega] https://mega.co.nz/#!MpVSSaiC!7oGuJjvRvzVi382UAxIuSVtp69oHUGnU7mBwosYLs7s
+- [MIRROR - Dropbox] https://www.dropbox.com/s/arrv3e50tl2z0g2/WebRepository.zip?dl=0
+- [MIRROR - Pomf] http://a.pomf.se/hfivkl.zip
+
+YouTube-DL:
+http://rg3.github.io/youtube-dl/download.html
+
+Java Decompiler:
+http://jd.benow.ca/#jd-gui-download

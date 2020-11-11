@@ -1,0 +1,87 @@
+This is the API documentation of the Strafe Sync Manager API.
+
+To fully set it up, there are some changes that are required. They are all marked with the "To-Do" label, so you can simply search for that.
+This is because I couldn't fill those in as they require cooperation with the LifePunch Base Gamemode.
+	- server.lua:246		To-Do: Use permissions here to make sure only selected players can use it
+	- server.lua:249		To-Do: Currently the only way to open the GUI is by using this console command (smgr open); we might want to change that, even though it's fine by me; secure this if you want
+	- server.lua:268		To-Do: Warn Player functionality (Within LP Base / Core)
+
+
+To implement the API in the gamemode, simply make calls to the SMgrAPI object.
+
+For example, in order to set every player to be recorded constantly:
+	- On your GM:PlayerInitialSpawn( ply ) hook, add this:
+	- SMgrAPI:Monitor( ply, true )
+	- It'll automatically set them to be recorded when they log in
+	- Then, to reset their statistics on restarting, on the GM:PlayerSpawn( ply ) hook:
+	- SMgrAPI:ResetStatistics( ply )
+	
+Another example, to get a players' sync:
+	- On a sample timer or function, can be used wherever
+	- SMgrAPI:GetSync( ply )
+	- It'll return you a number with 1 decimal (88.5)
+	- If no statistics available for player (invalidly supplied ply argument) -> returns "N/A"
+	
+There is a number of available console commands which are all prefixed by 'smgr':
+
+	[SERVER ONLY]
+	- smgr monitor [String: Player name] [Bool: Target ~ Default means it'll toggle the status]		>	Sets monitoring status for the specified player
+	- smgr monitorall [Bool: Target ~ Default is on, to easily record everyone in the lobby]				>	Sets monitoring status for all players
+	- smgr reset [String: Player name]																					>	Resets monitoring statistics for the specified player
+	- smgr resetall																												>	Resets monitoring statistics for all players
+	- smgr dump																												>	Dumps all collected data in a nice and clearly viewable table
+	
+	[CLIENT ONLY]
+	- smgr open																												>	Opens the Strafe Sync Manager window for the executing playera
+	
+	[CLIENT ONLY - Functions made to only be used by the GUI ~ Can be used by player however]
+	- smgr load																													>	Sends a full list of data to the player that is set in the GUI
+	- smgr warn [String: Steam ID]																						>	Sends a warn request to the player (This function could be removed, but I figured it would be useful for easy access and I had to fill the room on the GUI)
+	- smgr update [String: Steam ID]																					>	Updates data on the GUI for the supplied player
+	- smgr toggle [String: Steam ID]																						>	Toggles monitoring status for the supplied player
+	- smgr addnew [String: Steam ID]																					>	Adds a new player to the monitoring list
+	
+
+	
+Full list of available functions:
+	- void Monitor
+		Arguments: ply, Boolean bTarget
+		Description: Sets monitoring status to a given value or toggles it
+		Returns: The players' new monitornig status
+	- void ResetStatistics
+		Arguments: ply
+		Description: Resets the captured data for a given player
+	- void RemovePlayer
+		Arguments: ply
+		Description: Removes the player from the list and adds the object to an archive for later use
+	- object GetSync / GetSyncEx
+		Arguments: ply, Integer nRound
+		Description: Gets the Sync A or B value for the given player
+		Returns: Decimal value of Sync; String "N/A" if no information captured
+	- int GetFrames
+		Arguments: ply
+		Description: Gets the amount of measured frames for the given player
+		Returns: Integer value of the amount of frames
+	- boolean IsRealistic
+		Arguments: ply
+		Description: Checks whether or not the displayed values are realistic for banning a player
+		Returns: Boolean value
+	- object HasConfig / HasHack
+		Arguments: ply, Boolean bString
+		Description: Checks whether or not it's probable that the player uses the given tool
+		Returns: String representation of boolean when bString is true; Boolean value otherwise
+	- table GetDataLine
+		Arguments: ply, nID
+		Description: Builds the data line of the player for display in the Client GUI
+		Returns: Table of count 9 that uses the supplied parameter nID for counting
+	- void DumpState
+		Description: Dumps all available data that has been captured so far to the console
+	- void PopSend
+		Arguments: ply, String szText
+		Description: Creates a popup box on the players' screen for user feedback
+	- void NetSend
+		Arguments: ply, String szIdentifier, Table tabData
+		Description: Sends data over a network protocol with specified arguments to the connected player
+
+If there are any questions, feel free to contact me.
+- Gravious

@@ -1,0 +1,419 @@
+[CENTER][IMG]http://i.imgur.com/uDC2J8K.jpg[/IMG]
+[I]Bunny Hop - Version 3.2[/I]
+[/CENTER]
+
+[B]Index[/B]
+[LIST=1]
+[*]Introduction
+[*]Change Log
+- Update 3.2
+- Update 3 + Patch 3.1
+- Update 2
+- Update 1
+[*]General Information
+- Gamemode Explantion
+- Tutorials
+- Game Functionality Explanation (F.A.Q)
+- Rank List
+- Map List
+[*]Resources
+[/LIST]
+
+[SIZE=3]1. [B]Introduction[/B][/SIZE]
+I have changed the layout for this thread since there have been a numerous amount of updates all spread over a variety of threads, and I figured it would be useful if everything was compiled in one big and central thread so that information is easily accessible.
+Fields covered in this thread will be a complete list of features, changes and bug fixes applied to the server. General bhop information will also be posted here.
+If you have anything to suggest towards the bhop server or make any recommendations, please also post them here in this thread.
+
+[SIZE=3]2. [B]Change Log[/B][/SIZE]
+[SIZE=2][B]Update 3.2[/B][/SIZE]
+[I]This update focussed on fixing present bugs and changing current systems.[/I]
+
+[B][I]Added Features[/I][/B]
+[LIST]
+[*]Added a notification for the amount of points you obtained for a map
+[*]Added a radio
+- Gave the radio a user-friendly and feature-rich GUI (Possible additional commands will be added)
+- It is possible to download almost any video now
+- Possibilities to add music directly from YouTube
+- Create your own personalized queue (this might be save-able later)
+- Search all added songs
+[*]Added a 3-burst mode to the Glock, activatable by right-clicking
+- This 3-burst mode gives you a really smooth boost on boosters
+[*]A bonus mode has been added
+- Separate timer
+- World Records
+- Record notifications
+- You can only change to this mode if there is a bonus timer on the map
+- If you change to bonus mode you are automatically put at the start of the bonus level
+[*]It is now possible to hide the chat with !chat or !togglechat
+[*]With !check or !rtv check you can see how many votes are left to change the map
+[*]You can now use !muteall or !unmuteall to toggle mutes on all players
+[*]Added a new spectator menu
+- Shows time and record of spectated player
+- Shows velocity of player entity
+- Shows time remaining in map
+[/LIST]
+
+[B][I]Changes[/I][/B]
+[LIST]
+[*]Changed the rank system yet again
+- Your current rank is determined by: (Your Rank Points / #1 Player's Rank Points) * Maximum Obtainable Points
+- This rank is being shown on the !rank window
+- Dynamic rank reloading is now working better than before
+- Your rank points for a specific map are calculated likewise: 
+- - If your time is more or equal than double the #1 WR time on that map, you will receive half the total obtainable points
+- - If your time is less than double the #1 WR your points will be: Map Points * (#1 WR / Your Time) ; Time here is measured in seconds
+- You can determine Map Points by either finishing the map or by typing !points
+- When you finish a map you can see how many points of the total obtainable points you got
+[*]You now spawn with the Glock
+[*]Your ammo is now shown on the bottom right
+[*]You can now use !spec or !spectate to toggle spectator mode directly
+[*]You can also use !spec [Player] to directly spectate a player
+[*]You can now toggle to modes by only typing the first letter. E.g: !n / !a / !w
+[*]There are now small limits of 5 seconds between nominating a map or changing modes
+[*]You can now only rtv once every 60 seconds
+[*]You will now only be kicked for being AFK if there are more than 30 people online
+[*]Changed the timer to be more visible in different kind of maps
+[*]Spectators are now shown on the scoreboard with a more grayed out name
+[*]Ducking/Crouching or unducking in mid-air will now transition much smoother than before
+[*]Slightly increased the player jump height (In Auto Hop it is now possible to get on 64 Unit blocks jumping from the ground)
+[*]Removed ULX advertisement messages
+[*]States of opened windows are now saved (This is useful with !radio; it will save what you selected and searched for)
+[*]Scoreboard is now ordered by rank (this is only done when a new player is added to the scoreboard)
+[*]Racist words are now filtered out instead of giving an instant ban
+[/LIST]
+
+[B][I]Bug Fixes[/I][/B]
+[LIST]
+[*]Fixed a bug where it would say '0 minutes left' on the RTV limit
+[*]Finishing the a map on Bonus would stop your timer on some occasions
+[*]Fixed a bug where !rank would not show the correct data
+[*]The WR window now opens on the correct window if you type !wr w
+[*]Fixed a bug where typing !spec [Player] could give an error when that player was already in spectator mode
+[*]A specific level on Eman On no longer has misplaced triggers
+[*]Fixed a bug where you could not extend a map
+[*]Fixed a bug where the WR Bot would glitch out on some maps
+[*]A lot of bugs that I fixed on-the-go and forgot because they were so small and easily fixable
+[*]Fixed a glitch where you could close the window during voting and not bring it back up
+[*]The timers now show the correct amount of milliseconds
+[/LIST]
+
+[B][I]Other Additions or Changes[/I][/B]
+[LIST]
+[*]+ bhop_fps_max_sr
+[*]+ bhop_superdooperhard
+[*]+ bhop_frosties_gm
+[*]+ bhop_hikari_beta
+[*]+ bhop_screelee
+[/LIST]
+
+[SIZE=2][B]Update 3 + Patch 3.1[/B][/SIZE]
+[I]A complete overhaul on the graphical system was done in this update. Performance updates were also a central theme.[/I]
+[I]With the patch, Auto Hop was introduced as the main mode as a result of an excessive amount of scripters.[/I]
+
+
+[B][I]Added Features[/I][/B]
+[LIST]
+[*]New start and ending area; allows for better timing and better performance
+[*]New Heads-Up-Display; allows for better overview of time and speed
+- Rank window (Type !rank to open)
+- Edited Top window
+- Edited Voting window
+[*]Entirely re-done scoreboard with a slick new design that matches with the HUD
+[*]New bhop styles have been added
+[*]A new and more competative rank system
+[*]You can now extend a map by 15 minutes through voting. This can only be done once
+[*]AFK Players will now automatically be kicked after 10 minutes
+[*]New Bot recording system; secure and non-lagging WR run recording; go in-game and type !bot help for more info!
+[/LIST]
+
+[B][I]Changes[/I][/B]
+[LIST]
+[*]Auto Hop is now the only mode that affects your rank.
+[*]Menu system has been overhauled for a general improvement in performance
+[*]The bhop styles Sideways and W-Only are now also considered as 'leisure' styles; they don't give rank points; you can use Auto Hop on them
+[*]The RTV limit has been lowered to 10 minutes. If the map is extended this time is reset to 10 minutes again
+[*]You can now revoke your RTV by typing !revoke
+[*]The store has been removed. (A replacement for this will be found in time)
+[*]Auto Hop no longer has a jump height reset
+[*]You can now nominate maps by typing !nominate bhop_eazy
+[*]You can now change modes using commands like these: !normal, !auto, !sideways, !wonly
+[*]You can now switch through WR windows by pressing 9, and open specific ones by typing: !wr auto/sideways/w-only
+[*]The WR Bot now no longer wields weapons to give spectators a better view
+[*]The WR Bot now shows the run's owner data on the scoreboard
+[*]The WR Bot playback is now on a FOV of 90 for a better view
+[*]Changed the way strafing works slightly
+[*]Changed the help window
+[*]You now no longer hear your legs break every time you fall from a high level
+[*]You now spawn in the center of the starting area (not on some maps)
+[*]New WR saving mechanism; more optimized
+[*]Guns now no longer have infinite ammo; but have a finite number of 999 ammo
+[*]Spectator now has a different HUD displaying a variety of new options (!spawn or !tpto)
+[*]Typing a racial slur now instantly gives appropriate bans
+[*]When the voting window is active you can no longer open different windows; the voting window now shows time left
+[/LIST]
+
+[B][I]Bug Fixes[/I][/B]
+[LIST]
+[*]Fixed a glitch where votes on the Voting window were cropped
+[*]Fixed player join and disconnect messages
+[*]Fixed a bug where medium maps would not show up properly in the voting window
+[*]Fixed a bug where menu windows would occasionally not show the correct data (mapsleft)
+[*]Fixed a glitch where you could enter spectator mode in third person
+[*]Fixed a glitch where server and client time were not in sync; this could lead to invalid times showing on spectator
+[*]Fixed a glitch where your time continues after restarting
+[*]Fixed a glitch where entering an invalid name on practice mode would still give you a 60 second cooldown
+[*]Fixed a glitch where you could no-clip in normal mode
+[*]On Guly you are now teleported past a glitched level
+[*]Strafe Fix crouch parts are now fixed at it is now worth 500 points
+[*]Monster Jam no longer has door triggers
+[/LIST]
+
+[B][I]Other Additions or Changes[/I][/B]
+[LIST]
+[*]+ bhop_ch4 (Medium)
+[*]+ bhop_angkor (Medium)
+[*]+ bhop_fury_2 (Hard)
+[*]+ bhop_tasku (Easy)
+[*]+ bhop_larena_nodoors (Easy)
+[*]+ bhop_egyptiantemple (Medium)
+[*]+ bhop_glassy (Medium)
+[*]+ bhop_nipple_fix (Medium)
+[*]+ bhop_lolamap_v2 (Easy)
+[*]+ bhop_mc_ignis (Medium)
+[*]+ bhop_noobhop_exg (Easy)
+[*]+ bhop_nipple_fix (Medium)
+[*]+ bhop_sahara (Easy)
+[*]+ bhop_swik_b1 (Easy)
+[*]+ bhop_fly_lovers (Hard)
+[*]+ bhop_fly_fracture (Hard)
+[*]- bhop_nipple
+[*]- bhop_larena
+[*]- bhop_uc_minecraft_beta2
+[/LIST]
+
+[SIZE=2][B]Update 2[/B][/SIZE]
+[I]This update was a new bunny hop gamemode that introduced the additional Auto Hop gamemode. A lot of bug fixes were done in regards to the old gamemode and we changed to a clearer database form.[/I]
+
+[B][I]Added Features[/I][/B]
+[LIST]
+[*]Optimized player data saving (this has reduced join lag to some extent)
+[*]Added a !help command and updated the info on the F1 menu
+[*]Added a !rank/!points command to show your points and upcoming ranks
+[*]Added a !points [map] command to show how many points a map is worth (Usage: !points bhop_eazy)
+[*]Added a !top/!toplist command to show the top players of our server
+[*]Added a !mapsbeat command; this shows the maps the player beat
+[*]Added a !mapsleft command; this shows the maps that have not yet been beaten by the player
+[*]Added a spectate list. Type cl_showspec 1 in console to enable.
+[*]Added 10 new achievable ranks
+[*]Added 25 new maps
+[/LIST]
+
+[B][I]Changes[/I][/B]
+[LIST]
+[*]Made changes to the WR bot
+[*]Changed spectating possibilities
+[*]Removed exploited times from a number of maps
+[*]Unstuck has been temporarily removed
+[*]The nominate menu has a lowered delay and shows more details of the maps
+[*]On the RTV Menu you can see the voting status and change your vote (with delays of 3 seconds)
+[*]The rank list has been overhauled with a more gradual increase of points, and a minor change in colors
+[/LIST]
+
+[B][I]Bug Fixes[/I][/B]
+[LIST]
+[*]Fixed Exodus exploit
+[*]Fixed THC Platinum exploit
+[*]Fixed Indiana; you are now teleported past the impossible part
+[*]!store is no longer showing in chat
+[*]Minor fixes to crouching visualisation
+[/LIST]
+
+[B][I]Other Additions or Changes[/I][/B]
+[LIST]
+[*]+ bhop_mp_stairs_dev
+[*]+ bhop_red
+[*]+ bhop_redwood
+[*]+ bhop_k26000_b2
+[*]+ bhop_metal_v2
+[*]+ bhop_militia_v1
+[*]+ bhop_nacho_libre_simo
+[*]+ kz_bhop_cartooncastle_b1
+[*]+ bhop_combine
+[*]+ bhop_tut_v2
+[*]+ bhop_3d
+[*]+ bhop_blackrockshooter
+[*]+ bhop_thc_egypt
+[*]+ bhop_it_nine-up
+[*]+ bhop_monster_beta
+[*]+ bhop_white
+[*]+ bhop_deppy
+[*]+ bhop_fuckfear_fix
+[*]+ bhop_empty_eyes
+[*]+ bhop_forresttemple_beta
+[*]+ bhop_idiosyncrasy
+[*]+ bhop_clarity
+[*]+ bhop_greenroom_final
+[*]+ bhop_raw
+[*]+ bhop_strafe_fix
+[/LIST]
+
+
+[SIZE=2][B]Update 1[/B][/SIZE]
+[I]This was the first update I applied to the server where persistent bugs in George's gamemode were fixed. It has been a while and I don't exactly remember what this contained.[/I]
+
+
+[SIZE=3]3. [B]General Information[/B][/SIZE]
+[SIZE=2][B]Gamemode Explanation[/B][/SIZE]
+The point of the Bunny Hop gamemode is to test your manouvring skills and to complete maps with a varying difficulty. On pG we provide you with a great environment to use these skills in. In pG we offer you to display your skill in several Bunny Hop modes:
+[LIST]
+[*]Auto Hop: In this mode you will mainly be able to show your skill in strafing and speed; complete the maps with just your mouse and space bar. This is the only mode that will give you rank points.
+[*]Scroll: In this mode you have to use your mouse wheel to complete maps, and timing will be a big part of your run. Strafing still plays a role.
+[*]Sideways: This mode is all about showing your skill in being able to sideways-bhop. Auto Hop is enabled for this mode as scrolling mostly defeats the purpose.
+[*]W-Only: In this mode you have to complete the map with just your W-key and the space bar. This is generally considered the most challenging mode.
+[*]Bonus: This mode is only enable in some maps that have a bonus level. It is similar to the Auto Hop gamemode but does not give rank points. The levels are generally very short but can be challenging.
+[*]Practice: In this mode you can practice the map we are playing. You have access to a set of new commands that will allow you to place yourself anywhere throughout the map and try the parts or levels you struggle with.
+[/LIST]
+Each of these modes are provided with a World Record list, except of course the Practice mode.
+
+[SIZE=2][B]Tutorials[/B][/SIZE]
+[I]Below is a list of tutorials that will indefinitely help you along the way in the Bunny Hop gamemode.[/I]
+[LIST]
+[*]Bunny Hop Tutorial: [URL="http://www.youtube.com/watch?v=Q3j9ftTk4C8"]Basic Bunny Hop[/URL] (By Own3r)
+[*]Bunny Hop Tutorial: [URL="http://www.youtube.com/watch?v=SNvvQhXEWrs"]Advanced Bunny Hop[/URL] (By Own3r)
+[*]Long Jump Tutorial: [URL="http://www.youtube.com/watch?v=uKV7sxJrXB0"]Long Jumps (XC)[/URL] (By Own3r)
+[/LIST]
+
+[SIZE=2][B]Game Functionality Explanation[/B][/SIZE]
+[B]The rank system[/B]
+I know there has been some confusion about the rank system and the updates it received, so I will try to clarify the system as good as I can here.
+The initial rank system, that we have gotten used to and the one that has been set in place by George, was based off getting a certain amount of points for completing a map, where these points would represent the relative difficulty and length of the map. Parts of this rank system have been taken over by me to be used in the newer rank system.
+In the newer rank system, you still obtain points for completing a map, but the amount of points will be influenced by another factor here: Time.
+If you complete a map (worth 500 points) and you get the #1 WR (e.g. 08:13 = 493 seconds), you have the best time for that map, and will thus receive the maximum amount of points for that map (as shown in the nominate window or the value you get when typing !points). Now, if there is another player who beats the map, there are two scenarios possible for him:
+[LIST=1]
+[*]He has finished the map with a time more than DOUBLE the #1 WR (e.g. 16:38)
+> In this scenario the player has not performed well enough to be assigned a higher amount of points than half the total map points. The player will thus receive 250 points (500 / 2).
+[*]He has finished the map with a time that lies within the double of the #1 WR (e.g. 10:47 = 647 seconds)
+> In this scenario the player will receive points by the following formula: Map Points * (#1 Time / Your Time) = 500 * (493 / 647) = 381 Points out of 500 total
+[/LIST]
+Using this method players that can beat a map with a bad time will still get the points they deserve for at least showing the skill and capability to beat a map, and the players that can show more than this, like doing a perfect run of the map, will be rewarded with more points and thus easier ranking.
+
+[B]Practice Mode[/B]
+This is the rename of our old Teleportation Mode but greatly enhanced with new features. You can now 'no-clip' in practice mode by going into spectator (Free Roam); then typing !spawn to continue playing at this position.
+You can also directly teleport to spectated players (this is shown at the top of your screen). On practice mode, similarly to Sideways and W-Only, you have access to Auto Hop (Hold space).
+
+[B]Bots[/B]
+Bots are for any mode now, but you have to improve the bot's previous time to get a bot.
+To use the bot record function you have to either be halfway the rank ladder (Respected) or have a WR on that map.
+
+[B]F.A.Q[/B]
+Q: Will we ever have Benchmark?
+A: No.
+
+[B]Command Explanation[/B]
+[LIST]
+[*]F1: Show help window
+[*]F2: Toggle spectator mode
+[*]F3: Toggle third person mode
+[/LIST]
+[LIST]
+[*]!help or !commands: Show help window
+[*]!wr or !records [Option: normal/sideways/w-only/auto hop]: Open the WR window, defaulting to normal
+[*]!mode or !style: Show a mode selection window
+[*]!nominate: Show the nominate window
+[*]!mapsleft or !left: Shows the maps you haven't yet beaten
+[*]!mapsbeat or !beat: Shows the map you've beaten
+[*]!rank: Shows all ranks (Your own rank is in italics)
+[*]!top or !toplist or !best: Shows the top 10 of the server and their rank points
+[/LIST]
+[LIST]
+[*]!normal or !n: Change to Normal bhop mode
+[*]!sideways or !sw or !s: Change to Sideways bhop mode
+[*]!wonly or !w: Changes to W-Only bhop mode
+[*]!auto or !a: Changes to Auto Hop bhop mode
+[*]!practice or !p: Changes to Practice bhop mode
+[*]!bonus or !b: Changes to the Bonus bhop mode
+[/LIST]
+[LIST]
+[*]!hud or !gui: Show or hide the HUD
+[*]!showhud or !showgui: Shows the HUD
+[*]!hidehud or !hidegui: Hides the HUD
+[*]!showspec: Show the spectator list on the right of the screen
+[*]!hidespec: Hide the spectator list on the right of the screen
+[*]!show or !showplayers: Show the player models
+[*]!hide or !hideplayers: Hide the player models (including their trails) - Type this to make trails re-disappear
+[*]!chat or !togglechat: Toggles visibility of the chat
+[/LIST]
+[LIST]
+[*]!r or !restart: Restart the map - Spawning at the start
+[*]!rtv or !vote: Rock the vote!
+[*]!revoke or !rtv revoke: Revokes your RTV
+[*]!check or !rtv check: Checks how many RTV are left
+[*]!spec or !spectate: Toggles spectator (Similar to F2)
+[*]!spec [Player]: Directly spectates a player
+[*]!time or !timeleft: Show how much the map has left
+[*]!clear or !remove: Strip your own player of all possessed weapons
+[*]!usp or !glock or !knife or !p90: Gives your player the designated weapon
+[*]!points [Map - eg: bhop_eazy]: Shows how many points the map is worth
+[*]!nominate [Map - eg: bhop_depot]: Nominates the given map
+[/LIST]
+[LIST]
+[*]!bot - If there is a WR bot on the map, it will show when it was ran, by who and what the record was
+[*]!bot help - Show the help window (this includes bot command explanation)
+[*]!bot who - Will show who is currently being recorded
+[*]!bot record - Will attempt to record yourself, if there is already someone being recorded, it will tell you
+[*]!bot record me - Will force you on the bot-wait-list. It will show how long until the next election. After the time is over, you enter the command again and a random person from the list is elected
+[*]!bot record stop - If you're being recorded and you want to pass on the status to a different player, type this to cancel the recording
+[/LIST]
+[LIST]
+[*]!spawn: This will place yourself where you were in free roam spectator mode. (Only in Free Roam)
+[*]!tpto or !tele: This will place you where the person you are spectating is at. (Only in First Person or Chase Cam)
+[*]!tpto [Name] or !tele [Name]: This will teleport you to a given player (You don't have to be in spectator for this)
+[/LIST]
+
+[SIZE=2][B]Rank List[/B][/SIZE]
+[LIST]
+[*][B][COLOR="#000000"]Astronaut[/COLOR][/B]
+[*][B][COLOR="#A6A6A6"]Initiate[/COLOR][/B]
+[*][B][COLOR="#FFFF62"]Newbie[/COLOR][/B]
+[*][B][COLOR="#654321"]Beginner[/COLOR][/B]
+[*][B][COLOR="#FADADD"]Rookie[/COLOR][/B]
+[*][B][COLOR="#505050"]Apprentice[/COLOR][/B]
+[*][B][COLOR="#000808"]Decent[/COLOR][/B]
+[*][B][COLOR="#6010B0"]Novice[/COLOR][/B]
+[*][B][COLOR="#CEFF9D"]Getting There[/COLOR][/B]
+[*][B][COLOR="#808080"]Average[/COLOR][/B]
+[*][B][COLOR="#FFC0CB"]Intermediate[/COLOR][/B]
+[*][B][COLOR="#013220"]Awesome[/COLOR][/B]
+[*][B][COLOR="#00003C"]Advanced[/COLOR][/B]
+[*][B][COLOR="#620000"]Skilled[/COLOR][/B]
+[*][B][COLOR="#FF8000"]Impressive[/COLOR][/B]
+[*][B][COLOR="#00008B"]Pro[/COLOR][/B]
+[*][B][COLOR="#C4FFC4"]Hardcore[/COLOR][/B]
+[*][B][COLOR="#1EA630"]Respected[/COLOR][/B]
+[*][B][COLOR="#C4FFC4"]Prestigious[/COLOR][/B]
+[*][B][COLOR="#FFFF00"]Expert[/COLOR][/B]
+[*][B][COLOR="#800080"]Veteran[/COLOR][/B]
+[*][B][COLOR="#00A8FF"]Famous[/COLOR][/B]
+[*][B][COLOR="#FF6500"]Sublime[/COLOR][/B]
+[*][B][COLOR="#00FF80"]Beast[/COLOR][/B]
+[*][B][COLOR="#AA0000"]Wicked[/COLOR][/B]
+[*][B][COLOR="#00FFBF"]Epic[/COLOR][/B]
+[*][B][COLOR="#8B0000"]Addict[/COLOR][/B]
+[*][B][COLOR="#BEFF00"]Brutal[/COLOR][/B]
+[*][B][COLOR="#FF00FF"]Elite[/COLOR][/B]
+[*][B][COLOR="#FF0000"]Insane[/COLOR][/B]
+[*][B][COLOR="#FF0040"]Nightmare[/COLOR][/B]
+[*][B][COLOR="#FFEB00"]Divine[/COLOR][/B]
+[*][B][COLOR="#00FF00"]Stoner[/COLOR][/B]
+[*][B][COLOR="#0000FF"]Hax0r[/COLOR][/B]
+[*][B][COLOR="#FFD700"]Majestic[/COLOR][/B]
+[*][B][COLOR="#00FFFF"]God[/COLOR][/B]
+[/LIST]
+
+[SIZE=2][B]Map List[/B][/SIZE]
+[I]This will be added soon. As of now, please go in game and type !nominate to view the full list of maps and the points they will give you.[/I]
+
+[SIZE=3]4. [B]Resources[/B][/SIZE]
+
+Poll thread for ranking system: [URL="http://www.prestige-gaming.org/showthread.php?t=20564"]Thread[/URL]

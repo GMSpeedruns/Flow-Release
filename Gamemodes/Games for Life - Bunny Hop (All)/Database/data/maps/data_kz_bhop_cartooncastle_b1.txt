@@ -1,0 +1,1 @@
+{"Map":"kz_bhop_cartooncastle_b1","EndA":"[-1708 -175 16]","Plays":5,"EndB":"[-1474 207 208]","StartA":"[224 -1610 16]","Points":15,"StartB":"[608 -1390 208]"}

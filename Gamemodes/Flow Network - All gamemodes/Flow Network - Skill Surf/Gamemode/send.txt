@@ -1,0 +1,21 @@
+#
+# These files aren't fully sent to the client because they
+# should never change. Instead we send the CRC of this file
+# so the client can load their version - and we know it's kewl.
+#
+gamemodes\surf\entities\weapons\weapon_cs_base\shared.lua
+gamemodes\surf\entities\weapons\weapon_glock\shared.lua
+gamemodes\surf\entities\weapons\weapon_knife\shared.lua
+gamemodes\surf\entities\weapons\weapon_usp\shared.lua
+gamemodes\surf\entities\entities\game_timer\client.lua
+gamemodes\surf\entities\entities\game_timer\shared.lua
+gamemodes\surf\gamemode\modules\cl_radio.lua
+gamemodes\surf\gamemode\modules\cl_admin.lua
+gamemodes\surf\gamemode\cl_gui.lua
+gamemodes\surf\gamemode\cl_init.lua
+gamemodes\surf\gamemode\cl_receive.lua
+gamemodes\surf\gamemode\cl_score.lua
+gamemodes\surf\gamemode\cl_timer.lua
+gamemodes\surf\gamemode\core.lua
+gamemodes\surf\gamemode\core_player.lua
+gamemodes\surf\gamemode\core_view.lua

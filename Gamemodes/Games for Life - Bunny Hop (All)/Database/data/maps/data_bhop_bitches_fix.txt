@@ -1,0 +1,1 @@
+{"Map":"bhop_bitches_fix","EndA":"[1180 -677 76]","Plays":15,"EndB":"[1507 337 211]","StartA":"[-304 16 128]","Points":100,"StartB":"[174 239 240]"}

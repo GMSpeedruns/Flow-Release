@@ -1,0 +1,20 @@
+"Gamemode"
+{
+	"base"		"base"
+	"title"			"Deathrun"
+	"maps"		"^deathrun_"
+	"menusystem"	"1"
+	"workshopid"	""
+
+	"settings"
+	{
+		1
+		{
+			"name"		"deathrun"
+			"version"		"1.05"
+			"help"			"Deathrun"
+			"type"			"numeric"
+			"default"		"1"
+		}
+	}
+}

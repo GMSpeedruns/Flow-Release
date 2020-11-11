@@ -1,0 +1,1 @@
+{"Map":"bhop_blackrockshooter","EndA":"[6193 -11583 -255]","Plays":5,"EndB":"[6967 -10835 -63]","StartA":"[-3308 -131 63]","Points":35,"StartB":"[-2670 337 255]"}

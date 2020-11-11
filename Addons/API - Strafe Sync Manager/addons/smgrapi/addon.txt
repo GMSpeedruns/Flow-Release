@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"StrafeManager"
+	"version"			"2.21"
+	"up_date"			"09/26/2014"
+	"author_name"			"Gravious"
+	"author_email"			"http://facepunch.com/member.php?u=616750"
+	"author_url"			"http://facepunch.com/member.php?u=616750"
+	"info"				"Strafe Sync Detection Manager"
+	"override"			"0"
+}

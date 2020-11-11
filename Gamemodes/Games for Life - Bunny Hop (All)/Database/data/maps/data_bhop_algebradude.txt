@@ -1,0 +1,1 @@
+{"Map":"bhop_algebradude","EndA":"[-240 400 -48]","Plays":3,"EndB":"[239 879 162]","StartA":"[3218 -272 -48]","Points":20,"StartB":"[3407 463 109]"}

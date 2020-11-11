@@ -1,0 +1,1 @@
+{"Map":"bhop_fuckfear_fix","EndA":"[1736 -7 624]","Plays":6,"EndB":"[1984 239 816]","StartA":"[-446 -62 64]","Points":110,"StartB":"[-196 190 256]"}

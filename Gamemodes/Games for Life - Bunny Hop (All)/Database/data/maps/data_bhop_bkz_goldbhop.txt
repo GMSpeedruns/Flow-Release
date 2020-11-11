@@ -1,0 +1,1 @@
+{"Map":"bhop_bkz_goldbhop","EndA":"[3072 1936 288]","Plays":4,"EndB":"[3503 2527 418]","StartA":"[-248 59 16]","Points":20,"StartB":"[-41 277 151]"}

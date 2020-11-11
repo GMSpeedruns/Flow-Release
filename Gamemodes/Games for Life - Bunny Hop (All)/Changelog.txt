@@ -1,0 +1,65 @@
+Update 5.12
+
+	Changes
+		* Changed the WR window to be more efficient and detailed
+		* Added a !end / !toend command to teleport to the end in Practice mode
+		* Added a connection time measurer (Displayed on !top and !playtime)
+		* Added a !help / !commands command to show all commands in console
+		* Some small changes to player data saving
+		* Disallowed +left
+		* Fixed a LUA error with the knife when you try to hit certain entities
+		* Minor change to the scoreboard
+	
+Update 5.1
+
+	Features
+		* 52 new maps added
+		* Allowed for teleportation in Practice mode (!tpto, !practicetp)
+			+ This includes spectator (For spectator use: !specgo, !spectele)
+		* Added a !crosshair command to toggle your crosshair
+		* Added a !fixwater command to fix water on reflective maps
+		* Added a !removedecals command to remove decals such as blood
+		* Re-added the LatestMaps feature that disallows people to vote a map that has been recently played (Last 3 maps)
+		* You can now view more detailed information on the WR list by pressing the corresponding digit on your keyboard
+		* Extended the nomination menu with 'Toggle points' and 'Toggle sorting mode'
+		* Added a radio (A big and good one, it seems so minor when listing it here)
+		
+	Changes
+		* bhop_frost_bite_v1a has now been removed
+		* You can now spawn the following weapons with ![GUN]: glock, usp, knife, p90, mp5, crowbar
+		* Removed the left-over help possibilities
+		* Optimized HUD -> Slightly increased FPS
+			+ Spectator list now draws more efficiently (It also shows spectator count)
+		* Gamemode has been optimized where possible
+		* The knife now has a nifty deploy sound and animation
+		* The USP is now silencable with right-click
+		* Most bonuses now make you face the right way
+	
+	Fixes
+		* bhop_aoki_final is now completable
+		* bhop_eject is now completable
+		* The maps: bhop_house, bhop_raw, bhop_thc_gold, bhop_cobblestone, bhop_nacho_libre_simo, bhop_cutekittenz - all now no longer give lag upon respawning
+		* bhop_pro_bhopper_mp's start zone exploit has been fixed
+		* Fixed spectators occasionally dying
+		* Fixed disconnection messages
+		* Fixed Glock's name showing as a knife
+	
+
+Update 5.02
+
+	Features
+		* Allowed for pointshop trails to be hidden
+		* Added a !fixwater / !water command to fix water reflection for certain maps
+		* Added a !rtv who and !rtv check command
+	
+	Changes
+		* You can no longer use weapons in Noclip mode
+		* Bot recording has been made more efficient
+		* WR Window has been edited
+		* Normal and Bonus mode can now be recorded with the WR Bot
+		* The WR Bot recording limit has been increased to 10
+	
+	Fixes
+		* You can no longer accidently close the voting window
+		* Trails now properly hide
+		

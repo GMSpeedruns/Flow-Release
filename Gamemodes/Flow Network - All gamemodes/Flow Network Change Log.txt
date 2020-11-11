@@ -1,0 +1,403 @@
+THIS FILE LISTS ALL CHANGES APPLIED IN REVERSE CHRONOLOGICAL ORDER (From latest to oldest)
+
+
+More big updates! Yay. For Bunny Hop and Surf there are some new features 
+and fixes, but the main point of this update is definitely: Deathrun
+Some things I forgot about and some misc features were added as well
+
+Website
+CHANGES
+- Only the EU FastDL is now available (our US one is now disabled because 
+we don't pull as many players anymore)
+- Updated the IP addresses in here
+
+Bunny Hop & Surf
+
+Gamemode Update (Version 7.26 - 22 January 2014)
+ADDITIONS
+- A !bot who command
+- You can now teleport to other players with !tp [PlayerName]
+- You can now get help for an individual command with !command [cmd] or 
+!help [cmd]
+- [SURF] There is now possibility to add a restart zone (for fixing jails)
+- New features in the admin panel
+- Added a !plays command to see how often the map has been played
+
+CHANGES
+- Entities will no longer be highlighted
+- [BHOP] You can now use +left on all fly maps
+- In !hudedit mode, you can press SHIFT to speed up the process
+- You can now directly play songs with !yt/gs [query]
+- The way bots display on the scoreboard now make more sense and look 
+cooler (Thank you, Yeckoh)
+- The word filter now behaves differently
+- If you want, you can now view all songs available in the radio (search 
+for "all" or "*")
+- Some notifications (the random ones) now only appear after all IMPORTANT 
+ones have passed through
+
+FIXES
+- If you have !flip'd your weapons, they will now stay flipped when you 
+restart
+- You can no longer press map buttons while noclipping or while in 
+spectator mode
+- You can no longer use !cp in spectator mode
+- When a player restarts, or when their times is stopped by an anticheat 
+zone, spectators will now see
+- Fixed a few bugs with the VIP panel (tag and name saving are now 
+separate)
+- Fixed a glitch with the SQL Server not connecting (admins not loading)
+
+
+Deathrun
+Initial release at version 1.05! Wooooo.
+
+FEATURES
+- Basic Deathrun gamemode
+- Bunny Hop functionality (including Auto Hop)
+- Slick UI
+- Map records
+- Balanced gameplay
+- Undead runner system
+- RTV system
+
+And a LOT more.
+Be sure to check it out by going to our servers page: here
+
+
+===========
+
+Today's update was mainly focussed around Bhop. Hopefully you guys enjoy 
+the new features!
+
+Bunny Hop
+
+Gamemode Update (Version 7.22 - 19 November 2014)
+ADDITIONS
+- Notification system
+- Admin logging system
+- AFK Kicker (If you are not present for 5 minutes you will be 
+automatically kicked)
+- Stamina for Legit scroll
+- Velocity limit zones for legit
+
+CHANGES
+- The !tutorial command now opens up a good Bhop tutorial
+- Improved movement
+- Admin access has been changed
+- We now have separate Surf and Bhop admins
+- Your timer is now stopped when using +left or +right
+- Changed Jump Height to fit Garry's Mod Bhop better
+- Improved server loading
+- Rank points don't overflow anymore (limited at 2x points and 0.25x 
+points)
+- Some maps now force your style to legit (you can still play Auto, but the 
+default is legit)
+- Maps that force your style now only allow bot runs that were done in that 
+style
+- Changed a double rank in the ranking ladder
+- Changed available bot slots from 5 to 9
+
+FIXES
+- Bonus zones now correctly limit speed to 280 instead of 350
+- Fixed a bug where the incorrect time to WR would be displayed when 
+spectating
+- When restarting in practice mode, your timer appeared to keep running
+- Fixed a bug where you couldn't see someones time in bonus when you 
+started spectating
+- Fixed some errors with practice mode
+- Fixed some errors with jump height changing
+- Fixed a bug where speed wasn't captured anymore
+- Fixed a bug where medals wouldn't change
+- Fixed a bug where jumps weren't counted currently
+
+MAPS
+- Fixed bhop_cw_journey, it's now completable
+
+Surf
+ 
+Gamemode Update (Version 7.22 - 19 November 2014)
+ADDITIONS
+- Notification system
+- Admin logging system
+- AFK Kicker (If you are not present for 5 minutes you will be 
+automatically kicked)
+
+CHANGES
+- Improved movement
+- Admin access has been changed
+- We now have separate Surf and Bhop admins
+- Improved server loading
+- Rank points don't overflow anymore (limited at 2x points and 0.25x 
+points)
+
+FIXES
+- Fixed a bug where the incorrect time to WR would be displayed when 
+spectating
+- When restarting in practice mode, your timer appeared to keep running
+- Fixed a bug where you couldn't see someones time in bonus when you 
+started spectating
+
+===========================
+
+
+
+=====================
+=== FULL CHANGE LOG ===
+=====================
+
+Change Log
+
+ 
+
+This change log keeps track of all updates applied to the server next to 
+the patch notes that are posted by date.
+
+We will keep this post separated into three types of updates: General, Surf 
+and Bunny Hop.
+
+ 
+ 
+Index
+1. General
+2. Surf
+3. Bunny Hop
+ 
+ 
+ 
+ 
+General
+
+Website Update (21 December 2014)
+CHANGES
+- Updated the Donate page
+- Added a secure logging in system
+
+Website Update (6 December 2014)
+ADDITIONS
+- Donation
+
+CHANGES
+- Added a forum navigation tab
+- Improved loading screens a bit
+
+Website Update (12 November 2014)
+CHANGES
+- A forum has been added and structured
+- The administrator panel has been edited slightly
+- Loading screen has been optimized even further
+ 
+ 
+Surf
+ 
+Gamemode Update (Version 7.22 - 19 November 2014)
+ADDITIONS
+- Notification system
+- Admin logging system
+- AFK Kicker (If you are not present for 5 minutes you will be 
+automatically kicked)
+
+CHANGES
+- Improved movement
+- Admin access has been changed
+- We now have separate Surf and Bhop admins
+- Improved server loading
+- Rank points don't overflow anymore (limited at 2x points and 0.25x 
+points)
+
+FIXES
+- Fixed a bug where the incorrect time to WR would be displayed when 
+spectating
+- When restarting in practice mode, your timer appeared to keep running
+- Fixed a bug where you couldn't see someones time in bonus when you 
+started spectating
+
+Gamemode Update (6 November 2014)
+ADDITIONS
+- Added different admin types (Global and Server) - Hinthint
+- Added commands for Angled top list: !swtop, !hswtop
+ 
+CHANGES
+- Made a lot of changes to the admin panel
+- Changed how bans work
+- It is now possible to have multiple end zones
+- When you reset you now keep your weapon
+ 
+FIXES
+- Fixed a language error in the bot
+- Fixed a small bug in scoreboard
+- Ton of unnoticable bug fixes
+ 
+Gamemode Update (5 November 2014)
+ADDITIONS
+- Weapons!!?!? (You can only spawn them in via !glock or !usp or !knife)
+- There is now a bonus style that you can play by going to !style or just 
+type !b(onus)
+- Admins now have a team chat
+- It is now possible to nominate maps by typing: !nominate surf_fast
+- Added a showgui command to toggle the GUI visibility
+- The nominate window now highlights your beaten maps if you have opened 
+!mapsbeat before
+- Added a command to remove your weapons: !remove or !strip
+- Added a command to open the GM Speedruns YouTube channel: !youtube or 
+!video
+ 
+CHANGES
+- The scoreboard now sorts on rank and rank symbol
+- Maps Beat and Maps Left now goes by Style
+- The ranking system has been changed so that angled surf has separate 
+ranks
+- The top list now shows the results for normal and angled surf separately
+- The timer now shows how much slower you are when you finish later than 
+your previous record
+- Added a few new features to the admin panel and reorganized it
+- You can see the multiplier of the bonus by typing !map now
+- You now get automatically recorded by the bot when the amount of players 
+on the server is low
+- Changed the loading screen and optimized it so that it loads a lot faster
+ 
+FIXES
+- The nominate menu now has the correct size when toggling details
+- When you change spectator through !spec it now works correctly
+- Changed a small display glitch in the scoreboard
+ 
+ 
+ 
+Bunny Hop
+
+Gamemode Update (Version 7.24 - 21 December 2014)
+ADDITIONS
+- A brand new, Surfline exclusive, radio!
+- Added a new VIP panel accessible by !vip and more rewards (Such as /me, 
+/extend, double votes, double AFK timer and small management powers)
+- The !wr list now shows sync as well if captured
+- Added commands (/cpsave, /cpload) and bindable console commands (cpsave, 
+cpload) to checkpoints
+- Added an ammo indicator at the bottom right for when you have a gun 
+equipped
+- Added more aliases (!bot record (add) and !bot stop (remove))
+- Added new !end and !endbonus commands to teleport you to the end (only in 
+practice, shame eh?)
+
+CHANGES
+- Completely overhauled the admin panel
+- You can now monitor sync on the practice style
+- Movement configs are now a no-no. Only thing allowed is the HSW config on 
+Surf (you might get banned, so watch out)
+- You can now see sync and LJ statistics from someone you're spectating
+- Bots now spawn upon start of the map instead of joining whenever they're 
+needed (to ensure there is less lag)
+- Crouching and moving under roofs should now be smoother
+- Improved SLAC and made it more consistant
+- Crouching in legit no longer fully kills your speed
+- +left and +right are now no longer pressable (so you don't accidentally 
+stop your timer)
+
+FIXES
+- Fixed a bug with the AFK kicker
+- Fixed a few bugs with the RTV system
+- Fixed a bug where 3 bots could spawn
+- When admins change position of bots, their time will now update
+- When admins remove bots they no longer glitch out
+
+Gamemode Update (Version 7.23 - 5 December 2014)
+ADDITIONS
+- Extra bots for all modes (Type !bot help for more info)
+- Long Jump Statistics (Type !lj or !ljstats to toggle)
+- Checkpoint System (Type !cp or !cpmenu to open)
+- VIPs and more donator benefits (Type !donate to view more info)
+- Sync meter (Type !sync to toggle)
+- Crosshair customization (Type !crosshair help or !cross help to show)
+- More aliases for commands! Yey.
+- Added a !forum and a !donate command to open webpages
+- Added the !water command to change reflection and the !decals command to 
+clear the map of all bulletholes and blood
+- Added a notification for !hudedit to show how to save the HUD location
+- Added a !crowbar command for Dinget, as well as !p90 and !mp5
+- Added a !bot info command to show all details about a bot run
+- Added a !version command to view change log of the current version
+
+CHANGES
+- Air accelerate is different on Normal (1000aa) and on Easy Scroll (100aa) 
+and Legit (100aa / 10aa crouched)
+- Legit max velocity is now only applied when on the ground
+- Changed notification when leaving the start zone
+- When you nominate a map, you will automatically vote for it when a map 
+vote comes up
+- When you try to nominate an invalid map via !nominate [map], you will be 
+notified now
+- You can now see a reason for a players' disconnection
+- Changed logging system slightly
+- Updated SLAC with fixes and new detections (more aggresive now)
+- There are now separate Anti-Cheat zones (Both, Normal or Bonus)
+- You can now toggle player labels with !playernames or !labels
+- You can now type !bot save or !savebot to make sure your own bot is saved
+- You can now check your points for a map with !map or !mapsdone
+- Angled bhop rank ladder is now lowered
+- You now select the weapon right after you spawn it via a command
+- !mapsleft now sorts on points of maps rather than random
+- You can now nominate via !mapsleft and !mapsdone
+- Optimized data sending with CRC checking
+
+FIXES
+- Fixed a bug with unbanning
+- Fixed a bug in the loading mechanism causing invalid lock-outs
+
+MAPS
+- Added bhop_tesquo_prebeta for 200 points
+- Changed bhop_aux_a9 - Increased booster power
+- Changed bhop_catalyst - You can now move through gaps normally
+- Changed bhop_haddock - You can now do WJs on the bonus
+
+
+Gamemode Update (Version 7.22 - 19 November 2014)
+ADDITIONS
+- Notification system
+- Admin logging system
+- AFK Kicker (If you are not present for 5 minutes you will be 
+automatically kicked)
+- Stamina for Legit scroll
+- Velocity limit zones for legit
+
+CHANGES
+- The !tutorial command now opens up a good Bhop tutorial
+- Improved movement
+- Admin access has been changed
+- We now have separate Surf and Bhop admins
+- Your timer is now stopped when using +left or +right
+- Changed Jump Height to fit Garry's Mod Bhop better
+- Improved server loading
+- Rank points don't overflow anymore (limited at 2x points and 0.25x 
+points)
+- Some maps now force your style to legit (you can still play Auto, but the 
+default is legit)
+- Maps that force your style now only allow bot runs that were done in that 
+style
+- Changed a double rank in the ranking ladder
+- Changed available bot slots from 5 to 9
+
+FIXES
+- Bonus zones now correctly limit speed to 280 instead of 350
+- Fixed a bug where the incorrect time to WR would be displayed when 
+spectating
+- When restarting in practice mode, your timer appeared to keep running
+- Fixed a bug where you couldn't see someones time in bonus when you 
+started spectating
+- Fixed some errors with practice mode
+- Fixed some errors with jump height changing
+- Fixed a bug where speed wasn't captured anymore
+- Fixed a bug where medals wouldn't change
+- Fixed a bug where jumps weren't counted currently
+
+MAPS
+- Fixed bhop_cw_journey, it's now completable
+
+Gamemode Release (10 November 2014)
+ADDITIONS
+- Extra styles
+
+CHANGES
+- Crouch mechanism has been changed slightly
+
+FIXES
+- Limited start zone speed to 280 instead of 350

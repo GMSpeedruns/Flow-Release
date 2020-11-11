@@ -1,0 +1,3 @@
+{"Map":"bhop_kz_mix_journeys","Data":"-8048,2376,11920;-7952,2676,12048","ID":1}
+{"Map":"bhop_kz_mix_journeys","Data":"3471,974,7744;3600,1120,7872","ID":10}
+{"Map":"bhop_kz_mix_journeys","Data":"2804,72,11704;3036,1120,11832","ID":11}

@@ -1,0 +1,4 @@
+{"Map":"bhop_stronghold","ID":7,"Data":"16"}
+{"Map":"bhop_stronghold","ID":100,"Data":"custom"}
+{"Map":"bhop_stronghold","Data":"7125,-6768,768;7344,-6416,896","ID":10}
+{"Map":"bhop_stronghold","Data":"6384,-8151,1344;6448,-8087,1472","ID":11}

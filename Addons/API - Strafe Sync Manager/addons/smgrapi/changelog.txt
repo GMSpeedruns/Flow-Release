@@ -1,0 +1,36 @@
+Stafe Sync Manager API - Changelog
+
+2.21 - Bug fix
+	Changes:
+	* Fixed a minor error in HasHack prediction
+	* Optimized Sync prediction a tiny bit
+	* Added changelog and research file for revision by Monkeys
+
+2.20 - Clientside change
+	Changes:
+	* Changed security by changing SendLua to Net Library
+	* Improved Sync accuracy
+	* Semi-encrypted the clientside file so that finding it in the cache is harder (string reversing)
+	* Removed comments on clientside to reduce filesize
+	
+2.10 - Bug fix
+	Changes:
+	* Added PlayerDisconnect hook to monitor disconnects and fix a bug
+	* Added a StateArchive where data from disconnected players is saved for data dumping
+
+2.00 - LP Implementation Update (Currently running on LP)
+	Features:
+	* Fully operational clientside GUI
+	* New server and client console commands
+	Changes:
+	* 
+
+1.00 - Initial version - Created for testing
+	Features:
+	* Detects Sync
+	* Server console commands to display
+	* Outside accessability functions to get Sync values
+	* Prediction functions to estimate chance of hacking
+	
+	
+Strafe Sync Manager - Created by Gravious

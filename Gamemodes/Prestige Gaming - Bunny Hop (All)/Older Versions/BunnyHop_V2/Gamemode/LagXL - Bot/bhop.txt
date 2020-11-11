@@ -1,0 +1,12 @@
+"bhop"
+{
+	"base"		"base"
+	"title"		"Bunny Hop"
+	"maps"		"^bhop_"
+	"menusystem"	"1"
+
+	"settings"
+	{
+		// TODO: put some settings here
+	}
+}

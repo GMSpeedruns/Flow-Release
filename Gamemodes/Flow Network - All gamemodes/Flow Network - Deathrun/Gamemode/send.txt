@@ -1,0 +1,47 @@
+#
+# These files aren't fully sent to the client because they
+# should never change. Instead we send the CRC of this file
+# so the client can load their version - and we know it's kewl.
+#
+gamemodes\deathrun\entities\weapons\weapon_ak47\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_autoshotgun\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_cs_base\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_deagle\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_famas\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_fiveseven\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_flashbang\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_galil\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_glock\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_grenade_base\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_hegrenade\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_knife\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_m3\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_m4a1\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_m249\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_mac10\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_mp5\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_mp5navy\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_p90\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_p228\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_smokegrenade\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_tmp\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_ump45\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_usp\shared.lua
+gamemodes\deathrun\entities\weapons\weapon_xm1014\shared.lua
+gamemodes\deathrun\entities\entities\game_zone\shared.lua
+gamemodes\deathrun\entities\entities\game_zone\client.lua
+gamemodes\deathrun\entities\entities\ent_explosivegrenade\cl_init.lua
+gamemodes\deathrun\entities\entities\ent_explosivegrenade\shared.lua
+gamemodes\deathrun\entities\entities\ent_flashgrenade\cl_init.lua
+gamemodes\deathrun\entities\entities\ent_flashgrenade\shared.lua
+gamemodes\deathrun\entities\entities\ent_smokegrenade\cl_init.lua
+gamemodes\deathrun\entities\entities\ent_smokegrenade\shared.lua
+gamemodes\deathrun\gamemode\modules\cl_radio.lua
+gamemodes\deathrun\gamemode\modules\cl_admin.lua
+gamemodes\deathrun\gamemode\cl_gui.lua
+gamemodes\deathrun\gamemode\cl_init.lua
+gamemodes\deathrun\gamemode\cl_receive.lua
+gamemodes\deathrun\gamemode\cl_score.lua
+gamemodes\deathrun\gamemode\core.lua
+gamemodes\deathrun\gamemode\core_player.lua
+gamemodes\deathrun\gamemode\core_view.lua

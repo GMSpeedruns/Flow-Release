@@ -1,0 +1,2 @@
+{"Map":"bhop_strafe_fix","ID":7,"Data":"16"}
+{"Map":"bhop_strafe_fix","ID":100,"Data":"custom"}

@@ -1,0 +1,1 @@
+{"Map":"bhop_danmark","EndA":"[7824 3856 96]","Plays":8,"EndB":"[9039 4591 223]","StartA":"[96 144 96]","Points":50,"StartB":"[543 590 201]"}

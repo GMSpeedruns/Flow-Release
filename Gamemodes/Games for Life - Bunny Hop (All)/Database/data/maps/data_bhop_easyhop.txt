@@ -1,0 +1,1 @@
+{"Map":"bhop_easyhop","EndA":"[-832 -232 24]","Plays":5,"EndB":"[-593 8 166]","StartA":"[-544 -232 24]","Points":5,"StartB":"[-289 -16 129]"}

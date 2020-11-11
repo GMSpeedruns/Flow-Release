@@ -1,0 +1,167 @@
+[Bunny Hop]
+	- Eliminate join lag (??)
+	- Fix chat break glitch -> check if the chat length limit is reached
+		sv_rtv.lua:256 -> if string.len( text ) > COUNT X
+	- Fix unstuck -> capture position for barrel later
+	- Add !hide and !unhide command on cl_showothers
+		cl_hidestuff.lua: Add Hook on PlayerSay to change cl_showothers
+	- Store
+		- Fix model glitch -> timer limit on equip button or remove model
+		- Fix !store showing up in chat -> store addon
+	- Add spectator list (?)
+	- Give all guns unlimited ammo
+	- Create an admin menu to remove times
+	- Command changes
+		- !points [map_name] -> shows points a map gives
+		- !rank	-> shows your rank, and how far you are from the next couple of ranks
+		- !mapsbeat	-> shows which maps you have beaten
+		- !mapsleft		-> shows which maps you haven't beaten
+	- Edit HUD
+	- Possible extend feature?
+	
+	- Map Changes
+		- Add new ranks
+		- Add skips for bhop_strafe_fix
+		- Add skips for Indiana
+
+		Easy maps:
+			bhop_mp_stairs_dev 5
+				Start: -8, -180, 128		//		504, 104, 128
+				End: -8, -8584, -640		//		504, -8115, -640
+			bhop_thc_egypt 45
+				Start: 4870, 6662, -927     //   4915, 7161, -927
+				End: 3518, 1982, -927	  //    3651, 2515, -927
+			bhop_red 5
+				Start: -640, -416, 32	//	-270, 416, 32
+				End: 11024, -352, 32	//	11728, 352, 32
+			bhop_k26000_b2 10
+				Start: -496, 31, 128		//		-160, 368, 128
+				End: 12427, 100, 134			//		12735, 421, 134
+			bhop_metal_v2 10
+				Start: -912, 496, 132	//		-1390, 16, 132
+				End: 4431, -740, 79		//		5038, -143, 79
+			bhop_tut_v2 30
+				Start: -12785, -13140, 112		//		-12432, -13295, 112
+				End: -13536, -11824, -1919		//		-13328, -11552, -1919
+			bhop_3d 35
+				Start: -496, 16, 64		//		-80, 430, 64
+				End: 6672, -4719, -255 //		7087, -4306, -255
+			bhop_militia_v2 15
+				Start: 0, 656, 136		//		400, 30, 136
+				End: 1267, -4940, 136	//		1667, -4540, 136
+			bhop_combine 20
+				Start: 416, 912, 96		//		650, 1280, 96
+				End: -28, 6480, -384		//		780, 7152, -384
+			bhop_redwood 5
+				Start: 1710, -1712, 136	//		1968, -1456, 136
+				End: 1700, 1376, 104		//		1968, 2896, 104
+			kz_bhop_cartooncastle_b1 15
+				Start: 224, -1610, 80		//		608, -1390, 80
+				End: -1708, -175, 80		//		1527, 207, 80
+			bhop_nacho_libre_simo	15
+				Start: -1316, 32, 130		//		-1100, 480, 130
+				End: -2505, -3849, -1334	//		-2296, -3636, -1334
+			bhop_it_nine-up	50
+				Start: -3064, 3711, -1952	//		-3008, 4173, -1952
+				End: -5054, 7779, -1544	//		-4575, 8259, -1544
+			bhop_monster_beta	50
+				Start: -3722, -3732, 128	//		-3528, -3679, 128
+				End: 2344, 6069, 368		//		2613, 6706, 368
+			bhop_blackrockshooter	35
+				Start: -3308, -131, 127	//		-2670, 337, 127
+				End: 6193, -11583, -191	//		6967, -10835, -191
+				
+		Harder maps:
+			bhop_fuckfear_fix 110
+				Start: -446, -62, 128	//		-196, 190, 128
+				End: 1736, -7, 688		//		1961, 239, 688
+			bhop_deppy 100
+				Start: 7998, -9376, 517	//		8606, -9150, 517
+				End: -7522, 4825, 806	//		-6915, 5048, 806
+			bhop_foresttemple_beta	150
+				Start: 393, 16, 251		//		498, 220, 251
+				End: 2271, 1636, 351	//		2518, 1851, 351
+			bhop_idiosyncrasy 200
+				Start: -7261, 2634, 839	//		-7123, 2810, 839
+				End: -10033, -1735, 468	//		-9865, -1603, 468
+			bhop_raw	300
+				Start: 1554, -10732, 130	//		2485, -10664, 130
+				End: -6254, -10602, -781	//		-6035, -10383, -781
+			bhop_strafe_fix	800
+				Start: -4131, 3224, 446	//		-3843, 3510, 446
+				End: 755, 12396, -4657	//		888, 12571, -4657
+				
+				Skip 1 (1st Crouch Part):
+					Start: -3700, -5050, 382	//		-3655, -4968, 574
+					Destination: -4044, -4290, 734
+					
+				Skip 2 (Boosters):
+					Start: -50, -2358, 655		//		14, -2296, 847
+					Destination: -626, -2393, 2014
+					
+				Skip 3 (2nd Crouch Part):
+					Start: -1050, 3030, 4350	//		-963, 3510, 4542
+					Destination: -209, 3259, 4446
+			bhop_clarity 250
+				Start: 752, 896, 128		//		1008, 1008, 128
+				End: -3537, -4480, -1407	//	-3472, -4314, -1407
+			bhop_empty_eyes	130
+				Start: -15216, 14736, 240	//	-14992, 15216, 240
+				End: -5871, -2543, 8480	//	-5057, -1725, 8480
+			bhop_greenroom_final	250
+				Start: 1786, -1174, -1030	//		2452, -206, -1030
+				End: 3306, -1520, -2358	//		4234, -432, -2358
+			bhop_white 50
+				Start: 450, -375, 208	//	630, 242, 208
+				End: 4015, -22, 125 	//	4561, 523, 125
+	
+- Current Ranks:
+---------------------
+Astronaut - 0 Points (Players start on this rank)(This rank is White)
+Newbie - 20 Points
+Beginner - 50 Points
+Rookie - 110 Points
+Decent - 165 Points
+----------------------
+Getting There - 215 Points
+Average - 355 Points
+Intermediate - 460 Points
+Awesome - 575 Points
+Advanced - 870 Points
+Skilled - 1110 Points
+---------------------
+Pro - 1320 Points
+Hardcore - 1800 Points
+Prestigious - 2300 Points
+Expert - 2700 Points
+Veteran - 3670 Points
+---------------------
+Sublime - 4440 Points
+Beast - 5165 Points
+Epic - 6765 Points
+Addict - 7235 Points
+Elite - 7735 Points
+----------------------
+Insane - 8985 Points
+Nightmare - 9785 Points
+Stoner - 10785 Points
+Hax0r - 12285 Points
+God - 14285 Points
+----------------------
+	
+New possible ranks:
+Apprentice
+Initiate
+Novice
+Young Grasshopper
+---------------
+Impressive
+Respected
+Famous
+---------------
+Wicked
+Brutal
+Raving/Rocker
+---------------
+Divine
+Majestic

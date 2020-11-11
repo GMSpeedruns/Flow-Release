@@ -1,0 +1,1 @@
+{"Map":"bhop_aztec_fixed","Points":10,"StartA":"[0 -195 72]","StartB":"[399 -43 222]","EndA":"[-1935 -700 -164]","EndB":"[-1584 -487 -14]","Plays":0}

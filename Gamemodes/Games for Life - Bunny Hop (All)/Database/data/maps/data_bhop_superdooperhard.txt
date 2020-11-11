@@ -1,0 +1,1 @@
+{"Map":"bhop_superdooperhard","EndA":"[8208 9648 512]","Plays":3,"EndB":"[10224 10736 640]","StartA":"[-3568 -1520 512]","Points":175,"StartB":"[-2576 -1040 640]"}

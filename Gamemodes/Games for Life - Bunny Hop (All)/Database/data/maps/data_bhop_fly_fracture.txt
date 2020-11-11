@@ -1,0 +1,1 @@
+{"Map":"bhop_fly_fracture","EndA":"[487 2802 384]","Plays":6,"EndB":"[820 3107 512]","StartA":"[2601 -992 -600]","Points":250,"StartB":"[2856 -560 -472]"}

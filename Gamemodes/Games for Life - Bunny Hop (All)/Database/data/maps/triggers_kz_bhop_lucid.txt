@@ -1,0 +1,4 @@
+{"Map":"kz_bhop_lucid","ID":7,"Data":"16"}
+{"Map":"kz_bhop_lucid","ID":100,"Data":"custom"}
+{"Map":"kz_bhop_lucid","Data":"-9168,-752,72;-8816,-400,200","ID":11}
+{"Map":"kz_bhop_lucid","Data":"-12080,-816,200;-11856,-336,328","ID":10}

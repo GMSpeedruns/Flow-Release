@@ -1,0 +1,1 @@
+{"Map":"bhop_badges_ausbhop","EndA":"[-1520 -6640 -72]","Plays":2,"EndB":"[-1105 -5649 33]","StartA":"[-4840 -931 -32]","Points":80,"StartB":"[-4314 -663 140]"}

@@ -1,0 +1,1 @@
+{"Map":"bhop_kz_tryhardkittenz_fix","EndA":"[-10593 -290 -2018]","Plays":9,"EndB":"[-9438 1179 -1333]","StartA":"[-2936 -2769 253]","Points":200,"StartB":"[-2737 -2481 453]"}

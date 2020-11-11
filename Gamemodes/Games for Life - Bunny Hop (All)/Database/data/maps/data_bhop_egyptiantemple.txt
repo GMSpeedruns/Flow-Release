@@ -1,0 +1,1 @@
+{"Map":"bhop_egyptiantemple","EndA":"[-4032 -896 968]","Plays":3,"EndB":"[-3719 -583 1096]","StartA":"[-96 32 48]","Points":125,"StartB":"[416 280 176]"}

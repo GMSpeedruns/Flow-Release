@@ -1,0 +1,28 @@
+If you want visual support for setting up this gamemode, you can have a look at these tutorial videos made by me:
+
+SQLite Setup: https://www.youtube.com/watch?v=uXpfNJTy4nw
+MySQL Setup: https://www.youtube.com/watch?v=P0ejz_nhYjY
+
+If you want to begin with SteamCMD and build up from there, you can start here:
+https://www.youtube.com/watch?v=2-r3NlkfQ5w&index=1&list=PL574IiNOfsaWHf2xFtsFwL-PHDKx10RAV
+
+---
+
+Short extra guides
+
+---
+
+How to make WJs possible on KZ maps
+1. Go to gamemode/maps and copy kz_bhop_yonkoma.lua
+2. Rename it to the map you want to enable WJs on
+3. Open the Lua file. If you want to force the default style to legit don't change it, otherwise remove the 4th line
+
+How to make the !playernames command work
+1. Go to Release/Addons/Base GarrysMod Edits
+2. Copy all the contents and paste it right inside of your GarrysModDS/garrysmod folder
+3. If a prompt comes up to overwrite, back up your existing files and overwrite (unless GMOD lua has been updated)
+
+Fix disconnection by "The server can't load essential data! Please wait until this problem is fixed"
+1. To temporarily circumvent this problem, type this on your console and you should be able to join: lua_run Core.Locked = false
+2. The reason for this is either you've waited too long with placing a zone on a newly added map, or
+3. You haven't got any maps added to your sv.db's "game_map" table. You can manually insert an item here or, when bypassing the lockdown, set a multiplier for the map so that the table is updated.
